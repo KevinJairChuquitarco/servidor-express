@@ -37,6 +37,7 @@ app.post('/profesor', async (req, res) => {
     }
 });
 
+//Actualizar Profesor
 app.put('/profesor/:id', async (req,res)=>{
     const { id } = req.params;
     const datos = req.body;
